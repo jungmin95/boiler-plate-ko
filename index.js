@@ -6,7 +6,7 @@ const port = 4000
 const mongoose = require('mongoose')
 mongoose.connect('mongodb+srv://root:1234@boilerplate.8why3.mongodb.net/test?retryWrites=true&w=majority', {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false
-}).then(() => console.log('MongoDB Connected..'))
+}).then(() => console.log('MongoDB Connected...'))
   .catch(err => console.log(err))
 
 
