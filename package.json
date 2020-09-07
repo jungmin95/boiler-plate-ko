@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon index.js",
     "dev": "node index.js"
   },
   "keywords": [],
@@ -15,5 +16,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.3",
     "uuid4": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
